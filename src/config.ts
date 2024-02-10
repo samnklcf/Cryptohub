@@ -3,23 +3,23 @@ import type { NavItems } from "./types";
 export const NAV_ITEMS: NavItems = {
 	home: {
 		path: "/",
-		title: "home",
+		title: "Acceuil",
 	},
 	blog: {
 		path: "/blog",
-		title: "blog",
+		title: "Articles",
 	},
 	tags: {
 		path: "/tags",
-		title: "tags",
+		title: "Mots clés",
 	},
 	media: {
 		path: "/media",
-		title: "media",
+		title: "Youtube",
 	},
 	about: {
 		path: "/about",
-		title: "about",
+		title: "A Propos",
 	},
 };
 
@@ -37,16 +37,15 @@ export const SITE = {
 	ytChannelId: "",
 	// Optional, user/author settings (example)
 	// Author: name
-	author: "", // Example: Fred K. Schott
+	author: "NGUEMBHYT Nit Harley", // Example: Fred K. Schott
 	// Author: Twitter handler
-	authorTwitter: "", // Example: FredKSchott
+	authorLinkedin: "", // Example: FredKSchott
 	// Author: Image external source
-	authorImage: "", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+	authorImage: "../public/assets/image.png", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 	// Author: Bio
 	authorBio:
-		"Crisp, minimal, personal blog theme for Astro. Crisp, minimal, personal blog theme for Astro. Crisp, minimal, personal blog theme for Astro",
-};
-
+		"La technologie Blockchain va changer le monde, chez Crypto Afrique Futur, nous ferrons de vous des acteurs majeurs de cette révolution !"
+}
 // Ink - Theme configuration
 export const PAGE_SIZE = 8;
 export const USE_POST_IMG_OVERLAY = false;

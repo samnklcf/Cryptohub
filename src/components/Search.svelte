@@ -52,7 +52,7 @@
 <div class="search">
     <div class="search__ctrl">
         <label for="search"><SearchIcon found={searchResults.length > 0} /></label>
-        <input type="text" name="search" bind:this={searchInput} placeholder="What are you looking for?" bind:value={searchQuery} />
+        <input type="text" name="search" bind:this={searchInput} placeholder="Que recherchez-vous ?" bind:value={searchQuery} />
     </div>
     <div class="search__results">
         {#if searchResults.length}
@@ -64,7 +64,7 @@
                 {#if searchQuery.length}
                 Aucun élément correspondant trouvé !
                 {:else}
-                Cherchez quelque chose et laissez-moi le trouver pour vous ! :-)
+                Cherchez quelque chose et laissez-moi le trouver pour vous ! 
                 {/if}
             </div>
         {/if}

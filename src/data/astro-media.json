@@ -29,6 +29,14 @@
 		"url": "https://www.youtube.com/watch?v=3jPaidbpUIA",
 		"host": "Chris Coyier",
 		"participants": [],
-		"date": "2021-08-07"
+		"date": "2021-08-02"
+	},
+	{
+		"title": "Yapping About Astro",
+		"description": "Build a static-by-default site using JavaScript components and only load whatever JavaScript you need by opting in very carefully.",
+		"url": "https://www.youtube.com/watc=3jPaidbpUIA",
+		"host": "Chris Coyier",
+		"participants": [],
+		"date": "2022-08-03"
 	}
 ]
