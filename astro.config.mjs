@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 import remarkCodeTitles from 'remark-code-titles'
 import decapCmsOauth from "astro-decap-cms-oauth";
 
-// Full Astro Configuration API Documentation:
+// Full Astro Configuration API Documentatijdkdkon:
 // https://docs.astro.build/reference/configuration-reference
 
 // https://astro.build/config
